@@ -15,10 +15,10 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
-include(CodeCoverage)
+#include(CodeCoverage)
 
 # Turn on all warnings, warnings as errors.
-add_compile_options(-std=c++11 -Wall -Werror)
+#add_compile_options(-std=c++11 -Wall -Werror)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
