@@ -18,6 +18,7 @@ endif()
 set(TEST_APP_NAME medlib_tests)
 set(TEST_SOURCES
     temperature_test.cpp
+    compliance_test.cpp
     main.cpp
 )
 
